@@ -14,7 +14,7 @@ copyright = "2022, Rémy Sanchez"
 author = "Rémy Sanchez"
 
 # The full version, including alpha/beta/rc tags
-release = "1.0.0a1"
+release = __import__("importlib_metadata").version("modelw_directory")
 
 
 # -- General configuration ---------------------------------------------------

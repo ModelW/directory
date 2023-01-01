@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "modelw-directory"
+name = "modelw_directory"
 version = "1.0.0a1"
 description = "Model W directory, reference and documentation"
 authors = ["Rémy Sanchez <remy.sanchez@hyperthese.net>"]

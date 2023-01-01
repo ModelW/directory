@@ -17,6 +17,7 @@ to the various packages that we publish.
    from-scratch
    transform-project
    release-cycle
+   releasing
 
 .. note::
 
