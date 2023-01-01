@@ -6,15 +6,13 @@ list see the documentation:
 https://www.sphinx-doc.org/en/master/usage/configuration.html
 """
 
+from modelw_directory import __version__ as release
 
 # -- Project information -----------------------------------------------------
 
 project = "Model W"
 copyright = "2022, Rémy Sanchez"
 author = "Rémy Sanchez"
-
-# The full version, including alpha/beta/rc tags
-release = __import__("pkg_resources").get_distribution("modelw_directory").version
 
 
 # -- General configuration ---------------------------------------------------
