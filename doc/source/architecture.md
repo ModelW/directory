@@ -185,6 +185,57 @@ Then for user-generated content, which is inherently static, it makes more sense
 to have a CDN in front of the bucket that will cache and serve this content on
 edge.
 
+## Repo structure
+
+The rule of thumb is that all which is shipped together should sit in the same
+repo. Otherwise you just end up doing the same conceptual commit in all the
+different components of the app. Let's just acknowledge that we work with
+monoliths!
+
+At the root of the repo should be found the different components:
+
+-   `api` &mdash; The Django backend
+-   `front` &mdash; The Nuxt front-end
+-   `bot` &mdash; The BERNARD project (if any)
+-   Any other component that you need
+
+### API
+
+The API should follow the
+[API template](https://github.com/ModelW/project-maker/tree/develop/src/model_w/project_maker/template/api).
+
+Amongst many things:
+
+-   Configuration comes 100% from environment variables
+-   The project depends on the `modelw-preset-django` package at the current
+    Model&#8239;W version
+
+See [the Transform an Existing Project](./transform-project.md) section for more
+details.
+
+### Front
+
+Same as the API, it should follow the
+[front template](https://github.com/ModelW/project-maker/tree/develop/src/model_w/project_maker/template/front).
+
+The same rules apply, except that since it's Nuxt 2 and we'll move to Nuxt 3
+there has not been the same effort put into providing a good preset. However,
+the template gives a good starting point and the
+[the Transform an Existing Project](./transform-project.md) section provides
+with more insights.
+
 ## Extra
 
-Sentry
+While the stack is explained above, some peripheral tools deserve to be
+mentioned below.
+
+### Sentry
+
+Sentry is a powerful exception reporting tool. It will let you aggregate:
+
+-   Different exceptions with a lot of details as to which user had it, on which
+    environment, how many times, etc
+-   Detailed performance metrics including the list of SQL queries and their
+    specific run time
+
+Overall, that's the first tool to look into for insights about any project.
