@@ -129,7 +129,19 @@ different provider.
 
 The stack above will require to be able to send emails and/or SMS to clients.
 
-TBD
+In order to do so, the abstraction to be used is the
+[Wailer](https://github.com/withagency/wailer) system, which provides a
+higher-level abstraction than the Django email backend (or the `django-sms`
+package, which it uses internally).
+
+The goal of Wailer is to enforce patterns and best practices for sending emails
+which are convenient for the developers and avoid the common bugs by asking the
+right questions.
+
+It still needs a backing service to send its messages. The recommended one for
+both emails and SMSes is Mailjet. Its configuration is explained in the
+[Django preset](https://modelw-django-preset.readthedocs.io/en/latest/env-vars.html#external-communications)
+documentation.
 
 ## PaaS platform
 

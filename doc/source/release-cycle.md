@@ -10,7 +10,7 @@ The release of Model W happens quarterly:
 -   **1st Monday of January** (January 2, 2023)
 -   **1st Monday of April** (April 3, 2023)
 -   **1st Monday of July** (July 3, 2023)
--   **1st Monday of October** (October 3, 2022)
+-   **1st Monday of October** (October 2, 2023)
 
 The cycle for each release will be like this:
 
@@ -62,22 +62,74 @@ might receive their own branch.
 
 ## Versions
 
+The latest release is `2023.01`. There is no LTS to date.
+
+The versions detailed below are the one for this release.
+
+### Model W packages
+
+All Model W packages follow the same release logic. For example, the January
+2023 release will be versioned `2023.01`. The version number is used in all the
+packages and they all are guaranteed to work together.
+
+Which means that in order to switch from one version of Model W to another, you
+mainly need to change the version number of those packages in your requirements.
+Then you'll run into updating issues and so forth.
+
 ### Python
 
 Versions are decided by checking at the time of entering development phase which
 are the highest mutually compatible versions of Django, Numpy, SciPy, Pandas and
 Python.
 
+```{note}
 We don't use Numpy and friends so much but since they are often picky about the
 Python version it has been decided to include them.
+```
 
 -   [Python](https://endoflife.date/python) &mdash; Version `~3.10`
--   [Django](https://www.djangoproject.com/download/) &mdash; Version `~4.1`
--   [Numpy](https://numpy.org/news/) &mdash; Version `~1.23`
--   [Pandas](https://pandas.pydata.org/docs/whatsnew/index.html) &mdash; Version
-    `~1.4`
+-   Web Stuff
+    -   [Django](https://www.djangoproject.com/download/) &mdash; Version `~4.1`
+    -   [Django REST Framework](https://www.django-rest-framework.org/community/release-notes/)
+        &mdash; Version `~3.14`
+    -   [Celery](https://github.com/celery/celery/releases) &mdash; Version
+        `~5.2`
+    -   [Wagtail](https://docs.wagtail.io/en/stable/releases/index.html) &mdash;
+        Version `~4.1`
+    -   [Channels](https://channels.readthedocs.io/en/stable/releases/index.html)
+        &mdash; Version `~4.0`
+    -   [Django Postgres Extra](https://django-postgres-extra.readthedocs.io/en/latest/major_releases.html)
+        &mdash; Version `~2.0`
+    -   [Wailer](https://github.com/WithAgency/Wailer/tags) &mdash; Version
+        `~1.0`
+-   Annoying compiled stuff
+    -   [Numpy](https://numpy.org/news/) &mdash; Version `~1.23`
+    -   [TensorFlow](https://github.com/tensorflow/tensorflow/releases) &mdash;
+        Version `~2.11`
+    -   [Pandas](https://pandas.pydata.org/docs/whatsnew/index.html) &mdash;
+        Version `~1.4`
 
--   Model W packages
-    -   DRF pagination
--   Sentry
--   Sending emails ???
+### JavaScript
+
+The main driver of the JS version is what is supported by Nuxt or not. Currently
+we're using Nuxt 2, which is largely based on legacy packages with no plans on
+upgrading them. So we'll deal with a bit of a legacy on the Node side until we
+switch to Nuxt 3, which is a great leap.
+
+-   [Node](https://nodejs.org/en/about/releases/) &mdash; Version `^16`
+-   [Vue](https://endoflife.date/vue) &mdash; Version `~2.7`
+-   [Nuxt](https://nuxtjs.org/releases) &mdash; Version `~2.15`
+-   [Vlang](https://github.com/Xowap/Vlang/tags) &mdash; Version `~0.6`
+
+```{note}
+Vlang is favored as a translation package for the front-end
+as it provides a simple workflow to work with project managers and clients.
+It's a bit rough technically but anyone is encouraged to contribute to improve
+it.
+```
+
+### Databases
+
+-   [PostgreSQL](https://www.postgresql.org/support/versioning/) &mdash; Version
+    `^14`
+-   [Redis](https://redis.io/topics/release-notes) &mdash; Version `^7`
