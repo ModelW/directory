@@ -14,6 +14,8 @@ to the various packages that we publish.
    :caption: Contents:
 
    architecture
+   from-scratch
+   transform-project
    release-cycle
 
 .. note::
