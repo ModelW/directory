@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "modelw_directory"
+version = "2023.01.0b1"
+description = "Model W directory, reference and documentation"
+authors = ["Rémy Sanchez <remy.sanchez@hyperthese.net>"]
+license = "WTFPL"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Sphinx = "*"
+myst-parser = "*"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.group.dev.dependencies]
+monoformat = "^0.1.0b3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
