@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "modelw_directory"
-version = "1.0.0a1"
+version = "2023.01.0b1"
 description = "Model W directory, reference and documentation"
 authors = ["Rémy Sanchez <remy.sanchez@hyperthese.net>"]
 license = "WTFPL"
