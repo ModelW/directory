@@ -11,7 +11,7 @@ from modelw_directory import __version__ as release
 # -- Project information -----------------------------------------------------
 
 project = "Model W"
-copyright = "2022, Rémy Sanchez"
+copyright = "2022-2023, Rémy Sanchez"
 author = "Rémy Sanchez"
 
 
