@@ -9,11 +9,18 @@ to allow developers to focus on added-value.
 You'll find in this documentation an overview of Model W along with references
 to the various packages that we publish.
 
+.. note::
+
+    You should definitely read about the :doc:`Prerequisites <prerequisites>`
+    before you start.
+
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
    architecture
+   prerequisites
    from-scratch
    transform-project
    release-cycle
