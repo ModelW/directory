@@ -114,7 +114,7 @@ happens you can switch the version in the sources and use the new one instead.
 ## Package management
 
 The Node side is already covered by default, however for Python we'll diverge
-from Pip and we'll use Poetry.
+from Pip, and we'll use Poetry.
 
 The simplest to use Poetry is to install it with the default installer:
 

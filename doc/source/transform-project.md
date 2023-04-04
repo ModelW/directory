@@ -1,6 +1,6 @@
 # Transforming an Existing Project
 
-So you've got an existing project and you need to transform it. Here are a few
+So you've got an existing project, and you need to transform it. Here are a few
 key points to check.
 
 ## Repo structure

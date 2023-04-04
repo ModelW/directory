@@ -200,7 +200,7 @@ edge.
 ## Repo structure
 
 The rule of thumb is that all which is shipped together should sit in the same
-repo. Otherwise you just end up doing the same conceptual commit in all the
+repo. Otherwise, you just end up doing the same conceptual commit in all the
 different components of the app. Let's just acknowledge that we work with
 monoliths!
 
