@@ -62,7 +62,7 @@ might receive their own branch.
 
 ## Versions
 
-The latest release is `2023.01`. There is no LTS to date.
+The latest release is `2023.03`. THe latest LTS release is `2023.03`.
 
 The versions detailed below are the one for this release.
 
@@ -116,9 +116,9 @@ we're using Nuxt 2, which is largely based on legacy packages with no plans on
 upgrading them. So we'll deal with a bit of a legacy on the Node side until we
 switch to Nuxt 3, which is a great leap.
 
--   [Node](https://nodejs.org/en/about/releases/) &mdash; Version `^16`
+-   [Node](https://nodejs.org/en/about/releases/) &mdash; Version `^18`
 -   [Vue](https://endoflife.date/vue) &mdash; Version `~2.7`
--   [Nuxt](https://nuxtjs.org/releases) &mdash; Version `~2.15`
+-   [Nuxt](https://nuxtjs.org/releases) &mdash; Version `~2.16`
 -   [Vlang](https://github.com/Xowap/Vlang/tags) &mdash; Version `~0.6`
 
 ```{note}

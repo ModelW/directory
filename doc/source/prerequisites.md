@@ -81,13 +81,13 @@ curl https://pyenv.run | bash
 Once it's done, you can install the version of Python that you want to use:
 
 ```bash
-pyenv install 3.10.5
+pyenv install 3.10.10
 ```
 
 And use it system-wide:
 
 ```bash
-pyenv global 3.10.5
+pyenv global 3.10.10
 ```
 
 ```{note}
@@ -103,11 +103,11 @@ packaged Node versions for Debian.
 
 ```bash
 curl https://deb.nodesource.com/gpgkey/nodesource.gpg.key | sudo gpg --dearmor --output /etc/apt/trusted.gpg.d/nodesource.gpg
-sudo bash -c 'echo "deb [signed-by=/etc/apt/trusted.gpg.d/nodesource.gpg] https://deb.nodesource.com/node_16.x $(lsb_release -cs) main" > /etc/apt/sources.list.d/pgdg.list'
+sudo bash -c 'echo "deb [signed-by=/etc/apt/trusted.gpg.d/nodesource.gpg] https://deb.nodesource.com/node_18.x $(lsb_release -cs) main" > /etc/apt/sources.list.d/pgdg.list'
 ```
 
 ```{note}
-You can see there that we're installing version 16. When the Model W upgrade
+You can see there that we're installing version 18. When the Model W upgrade
 happens you can switch the version in the sources and use the new one instead.
 ```
 
@@ -135,7 +135,7 @@ version for a given project.
 
 ```bash
 cd /my/project/dir
-pyenv shell 3.10.5  # activates this python version just in the local shell
+pyenv shell 3.10.10  # activates this python version just in the local shell
 PYTHON_BIN=`pyenv which python`  # tells you where the binary is installed
 poetry env use $PYTHON_BIN  # tells poetry to use this binary
 ```
