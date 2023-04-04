@@ -1,6 +1,6 @@
 # Transforming an Existing Project
 
-So you've got an existing project and you need to transform it. Here are a few
+So you've got an existing project, and you need to transform it. Here are a few
 key points to check.
 
 ## Repo structure
@@ -63,7 +63,7 @@ component.
 Then, create a `Dockerfile` with the following content:
 
 ```dockerfile
-FROM modelw/base:2023.01
+FROM modelw/base:2023.03
 
 # Use EITHER that for Django:
 COPY --chown=user pyproject.toml poetry.lock ./

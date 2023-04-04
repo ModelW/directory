@@ -46,6 +46,8 @@ Go in the project maker and modify dependencies:
     etc)
 -   Test the template projects to see if it makes sense
 -   Generate different projects to see if the generation in itself works
+-   Make sure that the templated Dockerfiles reference the right version in the
+    FROM instruction
 
 When all seems reasonable, make a beta release of the project maker.
 
@@ -56,6 +58,8 @@ You need to reflect the changes in the way the Docker image is made.
 -   Update the Dockerfile to use the right version of Python and Node
 -   Also make sure to update the Dockerfile to get the modelw-docker package at
     the right major revision
+-   Make sure that the `demo` folder matches the new output of the project
+    maker.
 -   Test it locally
 
 When happy:
