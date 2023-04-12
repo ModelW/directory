@@ -133,3 +133,14 @@ it.
 -   [PostgreSQL](https://www.postgresql.org/support/versioning/) &mdash; Version
     `^14`
 -   [Redis](https://redis.io/topics/release-notes) &mdash; Version `^7`
+
+## Adopting a new release
+
+Switching to a new version of Model W is simple:
+
+-   Update the first line of the `Dockerfile` under both `api` and `front`
+-   Update the `modelw-preset-*` packages  inside `api/pyproject.toml` and inside `front/package.json`
+-   Don't forget to run `poetry update` as well as `npm install`
+-   `git push`
+-   ???
+-   Profit
