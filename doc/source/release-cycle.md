@@ -111,15 +111,9 @@ Python version it has been decided to include them.
 
 ### JavaScript
 
-The main driver of the JS version is what is supported by Nuxt or not. Currently
-we're using Nuxt 2, which is largely based on legacy packages with no plans on
-upgrading them. So we'll deal with a bit of a legacy on the Node side until we
-switch to Nuxt 3, which is a great leap.
-
 -   [Node](https://nodejs.org/en/about/releases/) &mdash; Version `^18`
--   [Vue](https://endoflife.date/vue) &mdash; Version `~2.7`
--   [Nuxt](https://nuxtjs.org/releases) &mdash; Version `~2.16`
--   [Vlang](https://github.com/Xowap/Vlang/tags) &mdash; Version `~0.6`
+-   [Vue](https://endoflife.date/vue) &mdash; Version `~3.2`
+-   [Nuxt](https://nuxtjs.org/releases) &mdash; Version `~3.4`
 
 ```{note}
 Vlang is favored as a translation package for the front-end
@@ -131,7 +125,7 @@ it.
 ### Databases
 
 -   [PostgreSQL](https://www.postgresql.org/support/versioning/) &mdash; Version
-    `^14`
+    `^15`
 -   [Redis](https://redis.io/topics/release-notes) &mdash; Version `^7`
 
 ## Adopting a new release

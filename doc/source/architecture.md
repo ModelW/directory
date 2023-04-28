@@ -60,12 +60,7 @@ Out of those two, we need a SSR framework that will handle under the hood many
 things that developers don't even realize anymore: data store, meta data of the
 page, HTTP requests, etc.
 
-Because of pure timing reasons (the choice of this stack happened around 2017)
-Vue&nbsp;2 is still in use and thus Nuxt&nbsp;2 comes with it.
-
-Now there might be in the future a switch to Svelte Kit, but the switch to
-Vue&nbsp;3/Nuxt&nbsp;3 presents equivalents benefits while being probably easier
-so it's actually very likely that the future will be Nuxt&nbsp;3.
+For these reasons, we have chosen to use Vue and Nuxt
 
 ## Storage
 
@@ -229,12 +224,6 @@ details.
 
 Same as the API, it should follow the
 [front template](https://github.com/ModelW/project-maker/tree/develop/src/model_w/project_maker/template/front).
-
-The same rules apply, except that since it's Nuxt 2 and we'll move to Nuxt 3
-there has not been the same effort put into providing a good preset. However,
-the template gives a good starting point and the
-[the Transform an Existing Project](./transform-project.md) section provides
-with more insights.
 
 ## Extra
 
