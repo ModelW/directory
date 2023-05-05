@@ -48,7 +48,7 @@ it in a much more simple way using the
 In order to do this cleanly, you will need to remove most of the items from the
 file in order to only keep those that are not already managed by the preset.
 Read the
-[Preset's documentation](https://modelw-django-preset.readthedocs.io/en/latest/)
+[Preset documentation](https://modelw-django-preset.readthedocs.io/en/latest/)
 to know more about it.
 
 ### Dockerfiles

@@ -18,7 +18,7 @@ make it more generic.
 ## Development tools
 
 You need obviously to have a bunch of development tools installed on your
-system. The following list is not exhaustive but it should give you a good idea
+system. The following list is not exhaustive, but it should give you a good idea
 of what you need:
 
 ```bash
@@ -49,15 +49,15 @@ In addition, you might want to install PostgreSQL at its latest version:
 ```bash
 sudo apt-get install -y curl ca-certificates gnupg
 curl https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo gpg --dearmor --output /etc/apt/trusted.gpg.d/apt.postgresql.org.gpg
-sudo bash -c 'echo "deb [signed-by=/etc/apt/trusted.gpg.d/apt.postgresql.org.gpg] http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+sudo bash -c 'echo "deb [signed-by=/etc/apt/trusted.gpg.d/apt.postgresql.org.gpg] https://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
 sudo apt-get update
-sudo apt-get install -y postgresql-14 libpq-dev
+sudo apt-get install -y postgresql-15 libpq-dev
 ```
 
 If you've already got PostgreSQL installed, make sure to at least have
 `libpq-dev`.
 
-Finally you might want to install Redis. The one from the system is usually
+Finally, you might want to install Redis. The one from the system is usually
 fine.
 
 ```bash

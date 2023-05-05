@@ -70,7 +70,7 @@ The versions detailed below are the one for this release.
 
 All Model W packages follow the same release logic. For example, the January
 2023 release will be versioned `2023.01`. The version number is used in all the
-packages and they all are guaranteed to work together.
+packages, and they all are guaranteed to work together.
 
 Which means that in order to switch from one version of Model W to another, you
 mainly need to change the version number of those packages in your requirements.
