@@ -62,7 +62,7 @@ might receive their own branch.
 
 ## Versions
 
-The latest release is `2023.03`. THe latest LTS release is `2023.03`.
+The latest release is `2023.04`. The latest LTS release is `2023.03`.
 
 The versions detailed below are the one for this release.
 
@@ -133,7 +133,8 @@ it.
 Switching to a new version of Model W is simple:
 
 -   Update the first line of the `Dockerfile` under both `api` and `front`
--   Update the `modelw-preset-*` packages  inside `api/pyproject.toml` and inside `front/package.json`
+-   Update the `modelw-preset-*` packages inside `api/pyproject.toml` and inside
+    `front/package.json`
 -   Don't forget to run `poetry update` as well as `npm install`
 -   `git push`
 -   ???
