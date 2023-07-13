@@ -63,7 +63,7 @@ component.
 Then, create a `Dockerfile` with the following content:
 
 ```dockerfile
-FROM modelw/base:2023.03
+FROM modelw/base:2023.07
 
 # Use EITHER that for Django:
 COPY --chown=user pyproject.toml poetry.lock ./

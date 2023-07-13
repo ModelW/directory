@@ -81,13 +81,13 @@ curl https://pyenv.run | bash
 Once it's done, you can install the version of Python that you want to use:
 
 ```bash
-pyenv install 3.10.10
+pyenv install 3.11
 ```
 
 And use it system-wide:
 
 ```bash
-pyenv global 3.10.10
+pyenv global 3.11
 ```
 
 ```{note}
