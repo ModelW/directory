@@ -62,7 +62,7 @@ might receive their own branch.
 
 ## Versions
 
-The latest release is `2023.04`. The latest LTS release is `2023.03`.
+The latest release is `2023.07`. The latest LTS release is `2023.03`.
 
 The versions detailed below are the one for this release.
 
@@ -70,7 +70,7 @@ The versions detailed below are the one for this release.
 
 All Model W packages follow the same release logic. For example, the January
 2023 release will be versioned `2023.01`. The version number is used in all the
-packages and they all are guaranteed to work together.
+packages, and they all are guaranteed to work together.
 
 Which means that in order to switch from one version of Model W to another, you
 mainly need to change the version number of those packages in your requirements.
@@ -87,15 +87,15 @@ We don't use Numpy and friends so much but since they are often picky about the
 Python version it has been decided to include them.
 ```
 
--   [Python](https://endoflife.date/python) &mdash; Version `~3.10`
+-   [Python](https://endoflife.date/python) &mdash; Version `~3.11`
 -   Web Stuff
     -   [Django](https://www.djangoproject.com/download/) &mdash; Version `~4.1`
     -   [Django REST Framework](https://www.django-rest-framework.org/community/release-notes/)
         &mdash; Version `~3.14`
     -   [Celery](https://github.com/celery/celery/releases) &mdash; Version
-        `~5.2`
+        `~5.3`
     -   [Wagtail](https://docs.wagtail.io/en/stable/releases/index.html) &mdash;
-        Version `~4.1`
+        Version `~4.2`
     -   [Channels](https://channels.readthedocs.io/en/stable/releases/index.html)
         &mdash; Version `~4.0`
     -   [Django Postgres Extra](https://django-postgres-extra.readthedocs.io/en/latest/major_releases.html)
@@ -112,8 +112,8 @@ Python version it has been decided to include them.
 ### JavaScript
 
 -   [Node](https://nodejs.org/en/about/releases/) &mdash; Version `^18`
--   [Vue](https://endoflife.date/vue) &mdash; Version `~3.2`
--   [Nuxt](https://nuxtjs.org/releases) &mdash; Version `~3.4`
+-   [Vue](https://endoflife.date/vue) &mdash; Version `~3.3`
+-   [Nuxt](https://nuxtjs.org/releases) &mdash; Version `~3.6`
 
 ```{note}
 Vlang is favored as a translation package for the front-end

@@ -56,8 +56,8 @@ want to eliminate those that are not actually reactive (React) and those that
 are made for "enterprise" development (Angular). This leaves us with Vue and
 Svelte.
 
-Out of those two, we need a SSR framework that will handle under the hood many
-things that developers don't even realize anymore: data store, meta data of the
+Out of those two, we need an SSR framework that will handle under the hood many
+things that developers don't even realize anymore: data store, metadata of the
 page, HTTP requests, etc.
 
 For these reasons, we have chosen to use Vue and Nuxt
@@ -104,7 +104,7 @@ good choice for our stack.
 ### Queue &mdash; Also Redis
 
 Natively Celery would rather use RabbitMQ, which is also a trustable piece of
-software. However the availability of RabbitMQ in various cloud providers is
+software. However, the availability of RabbitMQ in various cloud providers is
 quite reduced.
 
 On the other hand, Redis provides a good option and works perfectly well. So
@@ -114,7 +114,7 @@ that's what we'll go with.
 
 Everything that is user-generated (images mostly, but also PDF documents, videos
 and so forth) should be stored in a S3-like bucket. It's easy to use, there are
-the right abstractions in Django and it's available everywhere.
+the right abstractions in Django, and it's available everywhere.
 
 Given also that the original S3 remains unequaled in feature-completeness, it is
 a service easily bought from AWS even if the rest of the infrastructure is on a
@@ -149,7 +149,7 @@ kind of orchestrator like Kubernetes. There should be 3 basic services
 -   Celery for the Django tasks
 
 Those 3 parts are expected to be distributed as some form of images that respect
-the 12&nbsp;factors and can be span as needed.
+the 12&nbsp;factors and can be spanned as needed.
 
 The PaaS platform should be provided by the cloud provider. To be honest, the
 target here is mainly the PaaS from DigitalOcean, which is by far the simplest
@@ -165,7 +165,7 @@ There shall be two "endpoints":
 -   A CDN for the UGC and other content from the bucket
 
 Both should be on separate domains for security and simplicity reasons. The
-source needs to be found back but basically it was an advice from a Google
+source needs to be found back, but basically it was advice from a Google
 Engineering blog post. On top of that, the requirements are quite different.
 
 The load-balancer's job will be to direct HTTP requests either to the back-end
