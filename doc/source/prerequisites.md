@@ -103,7 +103,7 @@ packaged Node versions for Debian.
 
 ```bash
 curl https://deb.nodesource.com/gpgkey/nodesource.gpg.key | sudo gpg --dearmor --output /etc/apt/trusted.gpg.d/nodesource.gpg
-sudo bash -c 'echo "deb [signed-by=/etc/apt/trusted.gpg.d/nodesource.gpg] https://deb.nodesource.com/node_18.x $(lsb_release -cs) main" > /etc/apt/sources.list.d/pgdg.list'
+sudo bash -c 'echo "deb [signed-by=/etc/apt/trusted.gpg.d/nodesource.gpg] https://deb.nodesource.com/node_20.x $(lsb_release -cs) main" > /etc/apt/sources.list.d/pgdg.list'
 ```
 
 ```{note}

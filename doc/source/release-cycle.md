@@ -62,7 +62,7 @@ might receive their own branch.
 
 ## Versions
 
-The latest release is `2023.07`. The latest LTS release is `2023.03`.
+The latest release is `2024.04`. The latest LTS release is `2023.03`.
 
 The versions detailed below are the one for this release.
 
