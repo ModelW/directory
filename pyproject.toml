@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "modelw_directory"
-version = "2024.4.0b2"
+version = "2024.4.0b3"
 description = "Model W directory, reference and documentation"
 authors = ["Rémy Sanchez <remy.sanchez@hyperthese.net>"]
 license = "WTFPL"
@@ -10,8 +10,6 @@ python = "^3.11"
 setuptools = "*"
 Sphinx = "*"
 myst-parser = "*"
-
-[tool.poetry.dev-dependencies]
 
 [tool.poetry.group.dev.dependencies]
 monoformat = "^0.1.0b3"
