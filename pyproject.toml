@@ -11,8 +11,6 @@ setuptools = "*"
 Sphinx = "*"
 myst-parser = "*"
 
-[tool.poetry.dev-dependencies]
-
 [tool.poetry.group.dev.dependencies]
 monoformat = "^0.1.0b3"
 
