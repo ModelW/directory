@@ -7,10 +7,10 @@ software that is included in the distribution.
 
 The release of Model W happens quarterly:
 
--   **1st Monday of January** (January 2, 2023)
--   **1st Monday of April** (April 3, 2023)
--   **1st Monday of July** (July 3, 2023)
--   **1st Monday of October** (October 2, 2023)
+-   **1st Monday of January** (January 1, 2024)
+-   **1st Monday of April** (April 1, 2024)
+-   **1st Monday of July** (July 1, 2024)
+-   **1st Monday of October** (October 7, 2024)
 
 The cycle for each release will be like this:
 
@@ -89,7 +89,7 @@ Python version it has been decided to include them.
 
 -   [Python](https://endoflife.date/python) &mdash; Version `~3.11`
 -   Web Stuff
-    -   [Django](https://www.djangoproject.com/download/) &mdash; Version `~4.1`
+    -   [Django](https://www.djangoproject.com/download/) &mdash; Version `~4.2`
     -   [Django REST Framework](https://www.django-rest-framework.org/community/release-notes/)
         &mdash; Version `~3.14`
     -   [Celery](https://github.com/celery/celery/releases) &mdash; Version
