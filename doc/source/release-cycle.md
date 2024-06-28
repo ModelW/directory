@@ -62,7 +62,7 @@ might receive their own branch.
 
 ## Versions
 
-The latest release is `2024.04`. The latest LTS release is `2023.03`.
+The latest release is `2024.07`. The latest LTS release is `2024.04`.
 
 The versions detailed below are the one for this release.
 
@@ -91,13 +91,13 @@ Python version it has been decided to include them.
 -   Web Stuff
     -   [Django](https://www.djangoproject.com/download/) &mdash; Version `~4.2`
     -   [Django REST Framework](https://www.django-rest-framework.org/community/release-notes/)
-        &mdash; Version `~3.14`
+        &mdash; Version `~3.15`
     -   [Celery](https://github.com/celery/celery/releases) &mdash; Version
-        `~5.3`
+        `~5.4`
     -   [Wagtail](https://docs.wagtail.io/en/stable/releases/index.html) &mdash;
-        Version `~5.2`
+        Version `~6.1`
     -   [Channels](https://channels.readthedocs.io/en/stable/releases/index.html)
-        &mdash; Version `~4.0`
+        &mdash; Version `~4.1`
     -   [Django Postgres Extra](https://django-postgres-extra.readthedocs.io/en/latest/major_releases.html)
         &mdash; Version `~2.0`
     -   [Wailer](https://github.com/WithAgency/Wailer/tags) &mdash; Version
@@ -105,7 +105,7 @@ Python version it has been decided to include them.
 -   Annoying compiled stuff
     -   [Numpy](https://numpy.org/news/) &mdash; Version `~1.26`
     -   [TensorFlow](https://github.com/tensorflow/tensorflow/releases) &mdash;
-        Version `~2.15`
+        Version `~2.16`
     -   [Pandas](https://pandas.pydata.org/docs/whatsnew/index.html) &mdash;
         Version `~2.2`
 
@@ -113,7 +113,7 @@ Python version it has been decided to include them.
 
 -   [Node](https://nodejs.org/en/about/releases/) &mdash; Version `^20`
 -   [Vue](https://endoflife.date/vue) &mdash; Version `~3.4`
--   [Nuxt](https://nuxtjs.org/releases) &mdash; Version `~3.10`
+-   [Nuxt](https://nuxtjs.org/releases) &mdash; Version `~3.12`
 
 ```{note}
 Vlang is favored as a translation package for the front-end
@@ -137,5 +137,4 @@ Switching to a new version of Model W is simple:
     `front/package.json`
 -   Don't forget to run `poetry update` as well as `npm install`
 -   `git push`
--   ???
 -   Profit
