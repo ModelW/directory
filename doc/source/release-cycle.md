@@ -62,7 +62,7 @@ might receive their own branch.
 
 ## Versions
 
-The latest release is `2024.07`. The latest LTS release is `2024.04`.
+The latest release is `2024.10`. The latest LTS release is `2024.07`.
 
 The versions detailed below are the one for this release.
 
@@ -95,7 +95,7 @@ Python version it has been decided to include them.
     -   [Celery](https://github.com/celery/celery/releases) &mdash; Version
         `~5.4`
     -   [Wagtail](https://docs.wagtail.io/en/stable/releases/index.html) &mdash;
-        Version `~6.1`
+        Version `~6.2`
     -   [Channels](https://channels.readthedocs.io/en/stable/releases/index.html)
         &mdash; Version `~4.1`
     -   [Django Postgres Extra](https://django-postgres-extra.readthedocs.io/en/latest/major_releases.html)
@@ -103,24 +103,18 @@ Python version it has been decided to include them.
     -   [Wailer](https://github.com/WithAgency/Wailer/tags) &mdash; Version
         `~1.0`
 -   Annoying compiled stuff
-    -   [Numpy](https://numpy.org/news/) &mdash; Version `~1.26`
+    -   [Numpy](https://numpy.org/news/) &mdash; Version `~2.1`
     -   [TensorFlow](https://github.com/tensorflow/tensorflow/releases) &mdash;
-        Version `~2.16`
+        Version `~2.17`
     -   [Pandas](https://pandas.pydata.org/docs/whatsnew/index.html) &mdash;
         Version `~2.2`
 
 ### JavaScript
 
 -   [Node](https://nodejs.org/en/about/releases/) &mdash; Version `^20`
--   [Vue](https://endoflife.date/vue) &mdash; Version `~3.4`
--   [Nuxt](https://nuxtjs.org/releases) &mdash; Version `~3.12`
-
-```{note}
-Vlang is favored as a translation package for the front-end
-as it provides a simple workflow to work with project managers and clients.
-It's a bit rough technically but anyone is encouraged to contribute to improve
-it.
-```
+-   [Svelte](https://www.npmjs.com/package/svelte) &mdash; Version `~4.2`
+-   [SvelteKit](https://www.npmjs.com/package/@sveltejs/kit) &mdash; Version
+    `~2.6`
 
 ### Databases
 
@@ -136,5 +130,6 @@ Switching to a new version of Model W is simple:
 -   Update the `modelw-preset-*` packages inside `api/pyproject.toml` and inside
     `front/package.json`
 -   Don't forget to run `poetry update` as well as `npm install`
+-   Test the project locally
 -   `git push`
--   Profit
+-   Test the deployment
