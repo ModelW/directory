@@ -62,7 +62,7 @@ might receive their own branch.
 
 ## Versions
 
-The latest release is `2024.10`. The latest LTS release is `2024.07`.
+The latest release is `2025.01`. The latest LTS release is `2024.07`.
 
 The versions detailed below are the one for this release.
 
@@ -87,7 +87,7 @@ We don't use Numpy and friends so much but since they are often picky about the
 Python version it has been decided to include them.
 ```
 
--   [Python](https://endoflife.date/python) &mdash; Version `~3.11`
+-   [Python](https://endoflife.date/python) &mdash; Version `~3.12`
 -   Web Stuff
     -   [Django](https://www.djangoproject.com/download/) &mdash; Version `~4.2`
     -   [Django REST Framework](https://www.django-rest-framework.org/community/release-notes/)
@@ -95,26 +95,24 @@ Python version it has been decided to include them.
     -   [Celery](https://github.com/celery/celery/releases) &mdash; Version
         `~5.4`
     -   [Wagtail](https://docs.wagtail.io/en/stable/releases/index.html) &mdash;
-        Version `~6.2`
+        Version `~6.3`
     -   [Channels](https://channels.readthedocs.io/en/stable/releases/index.html)
-        &mdash; Version `~4.1`
+        &mdash; Version `~4.2`
     -   [Django Postgres Extra](https://django-postgres-extra.readthedocs.io/en/latest/major_releases.html)
         &mdash; Version `~2.0`
     -   [Wailer](https://github.com/WithAgency/Wailer/tags) &mdash; Version
         `~1.0`
 -   Annoying compiled stuff
-    -   [Numpy](https://numpy.org/news/) &mdash; Version `~2.1`
-    -   [TensorFlow](https://github.com/tensorflow/tensorflow/releases) &mdash;
-        Version `~2.17`
+    -   [Numpy](https://numpy.org/news/) &mdash; Version `~2.2`
     -   [Pandas](https://pandas.pydata.org/docs/whatsnew/index.html) &mdash;
         Version `~2.2`
 
 ### JavaScript
 
--   [Node](https://nodejs.org/en/about/releases/) &mdash; Version `^20`
--   [Svelte](https://www.npmjs.com/package/svelte) &mdash; Version `~4.2`
+-   [Node](https://nodejs.org/en/about/releases/) &mdash; Version `^22`
+-   [Svelte](https://www.npmjs.com/package/svelte) &mdash; Version `~5.16`
 -   [SvelteKit](https://www.npmjs.com/package/@sveltejs/kit) &mdash; Version
-    `~2.6`
+    `~2.15`
 
 ### Databases
 
