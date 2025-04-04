@@ -8,7 +8,7 @@ when creating a project from scratch is to use the
 In a nutshell, you can start a project with the following command line:
 
 ```bash
-curl -s https://pypi.run/modelw-project-maker/model_w.project_maker | python3.11
+curl -s https://pypi.run/modelw-project-maker/model_w.project_maker | python3.12
 ```
 
 This will ask you a few questions and then create a project for you. You can
