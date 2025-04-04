@@ -89,13 +89,13 @@ Python version it has been decided to include them.
 
 -   [Python](https://endoflife.date/python) &mdash; Version `~3.12`
 -   Web Stuff
-    -   [Django](https://www.djangoproject.com/download/) &mdash; Version `~4.2`
+    -   [Django](https://www.djangoproject.com/download/) &mdash; Version `~5.1`
     -   [Django REST Framework](https://www.django-rest-framework.org/community/release-notes/)
         &mdash; Version `~3.15`
-    -   [Celery](https://github.com/celery/celery/releases) &mdash; Version
-        `~5.4`
+    -   [Procrastinate](https://github.com/procrastinate-org/procrastinate)
+        &mdash; Version `~3.1`
     -   [Wagtail](https://docs.wagtail.io/en/stable/releases/index.html) &mdash;
-        Version `~6.3`
+        Version `~6.4`
     -   [Channels](https://channels.readthedocs.io/en/stable/releases/index.html)
         &mdash; Version `~4.2`
     -   [Django Postgres Extra](https://django-postgres-extra.readthedocs.io/en/latest/major_releases.html)
@@ -110,9 +110,9 @@ Python version it has been decided to include them.
 ### JavaScript
 
 -   [Node](https://nodejs.org/en/about/releases/) &mdash; Version `^22`
--   [Svelte](https://www.npmjs.com/package/svelte) &mdash; Version `~5.16`
+-   [Svelte](https://www.npmjs.com/package/svelte) &mdash; Version `~5.25`
 -   [SvelteKit](https://www.npmjs.com/package/@sveltejs/kit) &mdash; Version
-    `~2.15`
+    `~2.20`
 
 ### Databases
 
