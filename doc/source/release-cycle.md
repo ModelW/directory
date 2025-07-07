@@ -7,10 +7,10 @@ software that is included in the distribution.
 
 The release of Model W happens quarterly:
 
--   **1st Monday of January** (January 1, 2024)
--   **1st Monday of April** (April 1, 2024)
--   **1st Monday of July** (July 1, 2024)
--   **1st Monday of October** (October 7, 2024)
+-   **1st Monday of January** (January 6, 2025)
+-   **1st Monday of April** (April 7, 2025)
+-   **1st Monday of July** (July 7, 2025)
+-   **1st Monday of October** (October 6, 2025)
 
 The cycle for each release will be like this:
 
@@ -22,36 +22,11 @@ The cycle for each release will be like this:
 -   **Roll-out** (3 months) &mdash; All projects must migrate to the new Model W
     release
 -   **Support** (3 months) &mdash; After 3 month, when a new version comes out,
-    the old version stays supported for 3 more months to give time to projects
-    to make their roll-out
--   **LTS** (until 2 years after release) &mdash; Some versions will receive
-    long-term support, as explained below
+    the three previous versions stays supported for 3 more months to give time
+    to projects to make their roll-out.
 
-The above procedure is for long-lived projects. Some projects are considered
-temporary if they meet all the following criterion:
-
--   They won't be online more than one year
--   The maintenance is not expected to be intensive
--   It is not expected that new features will be added
-
-In that case, instead of using the latest Model W version, temporary projects
-will use the latest LTS version.
-
-> _Note_ &mdash; As Model W encompasses many dependencies, the 2 years goal for
-> LTS releases will be kept afloat as long as possible, however the security
-> coverage will have to depend on what is available upstream.
-
-The LTS release will be made at the same time as the July release but might
-contain different software versions to make sure that the underlying software is
-also in LTS version. Otherwise, the normal release might receive a downgrade,
-which is definitely not advised.
-
-At a given point in time, there might be 4 releases supported:
-
--   Normal release &mdash; Current
--   Normal release &mdash; Previous
--   LTS &mdash; Current
--   LTS &mdash; Previous
+At any given point in time, there will be 4 releases supported. The latest
+release and the three previous ones.
 
 ## This repo
 
@@ -62,7 +37,7 @@ might receive their own branch.
 
 ## Versions
 
-The latest release is `2025.01`. The latest LTS release is `2024.07`.
+The latest release is `2025.07`.
 
 The versions detailed below are the one for this release.
 
@@ -87,15 +62,15 @@ We don't use Numpy and friends so much but since they are often picky about the
 Python version it has been decided to include them.
 ```
 
--   [Python](https://endoflife.date/python) &mdash; Version `~3.12`
+-   [Python](https://endoflife.date/python) &mdash; Version `~3.13`
 -   Web Stuff
-    -   [Django](https://www.djangoproject.com/download/) &mdash; Version `~5.1`
+    -   [Django](https://www.djangoproject.com/download/) &mdash; Version `~5.2`
     -   [Django REST Framework](https://www.django-rest-framework.org/community/release-notes/)
-        &mdash; Version `~3.15`
+        &mdash; Version `~3.16`
     -   [Procrastinate](https://github.com/procrastinate-org/procrastinate)
-        &mdash; Version `~3.1`
+        &mdash; Version `~3.2`
     -   [Wagtail](https://docs.wagtail.io/en/stable/releases/index.html) &mdash;
-        Version `~6.4`
+        Version `~7.0`
     -   [Channels](https://channels.readthedocs.io/en/stable/releases/index.html)
         &mdash; Version `~4.2`
     -   [Django Postgres Extra](https://django-postgres-extra.readthedocs.io/en/latest/major_releases.html)
@@ -103,14 +78,14 @@ Python version it has been decided to include them.
     -   [Wailer](https://github.com/WithAgency/Wailer/tags) &mdash; Version
         `~1.0`
 -   Annoying compiled stuff
-    -   [Numpy](https://numpy.org/news/) &mdash; Version `~2.2`
+    -   [Numpy](https://numpy.org/news/) &mdash; Version `~2.3`
     -   [Pandas](https://pandas.pydata.org/docs/whatsnew/index.html) &mdash;
-        Version `~2.2`
+        Version `~2.3`
 
 ### JavaScript
 
 -   [Node](https://nodejs.org/en/about/releases/) &mdash; Version `^22`
--   [Svelte](https://www.npmjs.com/package/svelte) &mdash; Version `~5.25`
+-   [Svelte](https://www.npmjs.com/package/svelte) &mdash; Version `~5.33`
 -   [SvelteKit](https://www.npmjs.com/package/@sveltejs/kit) &mdash; Version
     `~2.20`
 
