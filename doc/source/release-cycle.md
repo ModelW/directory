@@ -99,10 +99,12 @@ Python version it has been decided to include them.
 
 Switching to a new version of Model W is simple:
 
+-   Update poetry and npm to their latest versions
 -   Update the first line of the `Dockerfile` under both `api` and `front`
 -   Update the `modelw-preset-*` packages inside `api/pyproject.toml` and inside
     `front/package.json`
--   Don't forget to run `poetry update` as well as `npm install`
+-   Run `poetry update` as well as `npm update` to update all dependencies to their latest versions
 -   Test the project locally
 -   `git push`
+-   Check the security tab in GitHub to make sure it's zero
 -   Test the deployment
