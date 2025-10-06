@@ -68,11 +68,11 @@ Python version it has been decided to include them.
     -   [Django REST Framework](https://www.django-rest-framework.org/community/release-notes/)
         &mdash; Version `~3.16`
     -   [Procrastinate](https://github.com/procrastinate-org/procrastinate)
-        &mdash; Version `~3.2`
+        &mdash; Version `~3.5`
     -   [Wagtail](https://docs.wagtail.io/en/stable/releases/index.html) &mdash;
-        Version `~7.0`
+        Version `~7.1`
     -   [Channels](https://channels.readthedocs.io/en/stable/releases/index.html)
-        &mdash; Version `~4.2`
+        &mdash; Version `~4.3`
     -   [Django Postgres Extra](https://django-postgres-extra.readthedocs.io/en/latest/major_releases.html)
         &mdash; Version `~2.0`
     -   [Wailer](https://github.com/WithAgency/Wailer/tags) &mdash; Version
@@ -85,9 +85,9 @@ Python version it has been decided to include them.
 ### JavaScript
 
 -   [Node](https://nodejs.org/en/about/releases/) &mdash; Version `^22`
--   [Svelte](https://www.npmjs.com/package/svelte) &mdash; Version `~5.33`
+-   [Svelte](https://www.npmjs.com/package/svelte) &mdash; Version `~5.38`
 -   [SvelteKit](https://www.npmjs.com/package/@sveltejs/kit) &mdash; Version
-    `~2.20`
+    `~2.39`
 
 ### Databases
 
