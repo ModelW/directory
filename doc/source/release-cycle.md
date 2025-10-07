@@ -32,12 +32,11 @@ release and the three previous ones.
 
 This repo contains the documentation. The `develop` branch matches the
 development cycle of the release. Each release will then receive a PEP-440
-version number in the format `<year>.<month>` which will be tagged. LTS releases
-might receive their own branch.
+version number in the format `<year>.<month>` which will be tagged.
 
 ## Versions
 
-The latest release is `2025.07`.
+The latest release is `2025.10`.
 
 The versions detailed below are the one for this release.
 

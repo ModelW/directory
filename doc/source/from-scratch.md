@@ -5,10 +5,10 @@ in the [Architecture](./architecture.md) part. The simplest way to respect that
 when creating a project from scratch is to use the
 [Project Maker](https://github.com/ModelW/project-maker).
 
-In a nutshell, you can start a project with the following command line:
+In a nutshell, you can start a project using [UV](https://docs.astral.sh/uv/getting-started/installation/) with the following command line:
 
 ```bash
-curl -s https://pypi.run/modelw-project-maker/model_w.project_maker | python3.13
+uvx --from modelw-project-maker --prerelease=allow project_maker
 ```
 
 This will ask you a few questions and then create a project for you. You can
