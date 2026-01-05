@@ -7,10 +7,10 @@ software that is included in the distribution.
 
 The release of Model W happens quarterly:
 
--   **1st Monday of January** (January 6, 2025)
--   **1st Monday of April** (April 7, 2025)
--   **1st Monday of July** (July 7, 2025)
--   **1st Monday of October** (October 6, 2025)
+-   **1st Monday of January** (January 5, 2026)
+-   **1st Monday of April** (April 6, 2026)
+-   **1st Monday of July** (July 6, 2026)
+-   **1st Monday of October** (October 5, 2026)
 
 The cycle for each release will be like this:
 
@@ -36,7 +36,7 @@ version number in the format `<year>.<month>` which will be tagged.
 
 ## Versions
 
-The latest release is `2025.10`.
+The latest release is `2026.01`.
 
 The versions detailed below are the one for this release.
 
@@ -61,15 +61,15 @@ We don't use Numpy and friends so much but since they are often picky about the
 Python version it has been decided to include them.
 ```
 
--   [Python](https://endoflife.date/python) &mdash; Version `~3.13`
+-   [Python](https://endoflife.date/python) &mdash; Version `~3.14`
 -   Web Stuff
-    -   [Django](https://www.djangoproject.com/download/) &mdash; Version `~5.2`
+    -   [Django](https://www.djangoproject.com/download/) &mdash; Version `~6.0`
     -   [Django REST Framework](https://www.django-rest-framework.org/community/release-notes/)
         &mdash; Version `~3.16`
     -   [Procrastinate](https://github.com/procrastinate-org/procrastinate)
-        &mdash; Version `~3.5`
+        &mdash; Version `~3.6`
     -   [Wagtail](https://docs.wagtail.io/en/stable/releases/index.html) &mdash;
-        Version `~7.1`
+        Version `~7.2`
     -   [Channels](https://channels.readthedocs.io/en/stable/releases/index.html)
         &mdash; Version `~4.3`
     -   [Django Postgres Extra](https://django-postgres-extra.readthedocs.io/en/latest/major_releases.html)
@@ -77,16 +77,16 @@ Python version it has been decided to include them.
     -   [Wailer](https://github.com/WithAgency/Wailer/tags) &mdash; Version
         `~1.0`
 -   Annoying compiled stuff
-    -   [Numpy](https://numpy.org/news/) &mdash; Version `~2.3`
+    -   [Numpy](https://numpy.org/news/) &mdash; Version `~2.4`
     -   [Pandas](https://pandas.pydata.org/docs/whatsnew/index.html) &mdash;
         Version `~2.3`
 
 ### JavaScript
 
--   [Node](https://nodejs.org/en/about/releases/) &mdash; Version `^22`
--   [Svelte](https://www.npmjs.com/package/svelte) &mdash; Version `~5.38`
+-   [Node](https://nodejs.org/en/about/releases/) &mdash; Version `^24`
+-   [Svelte](https://www.npmjs.com/package/svelte) &mdash; Version `~5.46`
 -   [SvelteKit](https://www.npmjs.com/package/@sveltejs/kit) &mdash; Version
-    `~2.39`
+    `~2.49`
 
 ### Databases
 
