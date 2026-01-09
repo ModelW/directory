@@ -8,7 +8,7 @@ when creating a project from scratch is to use the
 In a nutshell, you can start a project using [UV](https://docs.astral.sh/uv/getting-started/installation/) with the following command line:
 
 ```bash
-uvx --from modelw-project-maker --prerelease=allow project_maker
+uvx --from modelw-project-maker --python 3.14 project_maker
 ```
 
 This will ask you a few questions and then create a project for you. You can
