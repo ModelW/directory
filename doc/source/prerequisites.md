@@ -129,9 +129,29 @@ Python version you're using. Now, it will detect which version of Python you
 enabled when doing a `poetry install` and will use it to create the virtualenv
 for your project.
 
-If you always activate the right Python version in a `global` way with pyenv,
-you should be fine. In doubt, Poetry can be configured to use a specific Python
-version for a given project.
+To set up the environment for backend work properly the first thing we need to do is to create a
+new environment with [poetry](https://python-poetry.org/docs/) and [pyenv](https://github.com/pyenv/pyenv).
+You can also follow the steps described in the documentation of [ModelW](https://model-w.readthedocs.io/en/latest/prerequisites.html#development-tools)
+
+By this way we can isolate the different dependencies from other projects.
+
+To install the dependencies declared inside the file poetry.lock.
+You have to follow the next steps:
+
+Declare the python version by pyenv
+```bash
+pyenv local 3.10.9 # tells pyenv to configure a env with local coverage to use a specific version of python
+```
+Then we have to specify to poetry which env he has to use, it's done by
+```bash
+poetry env use <home of your pyenv>/versions/3.10.9/bin/python # tells to poetry what python it has to use
+```
+And with this specification we can follow to install all the dependencies from pyproject.toml by:
+```bash
+poetry install # installs the dependencies from pyproject
+```
+
+If you are using and IDE like Pycharm, you can configure the poetry env to be the one used by built commands
 
 ```bash
 cd /my/project/dir
