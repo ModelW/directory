@@ -8,7 +8,7 @@ software that is included in the distribution.
 The release of Model W happens quarterly:
 
 -   **1st Monday of January** (January 5, 2026)
--   **1st Monday of April** (April 6, 2026)
+-   **1st Monday of April** (April 13, 2026)
 -   **1st Monday of July** (July 6, 2026)
 -   **1st Monday of October** (October 5, 2026)
 
@@ -36,7 +36,7 @@ version number in the format `<year>.<month>` which will be tagged.
 
 ## Versions
 
-The latest release is `2026.01`.
+The latest release is `2026.04`.
 
 The versions detailed below are the one for this release.
 
@@ -64,12 +64,12 @@ Python version it has been decided to include them.
 -   [Python](https://endoflife.date/python) &mdash; Version `~3.14`
 -   Web Stuff
     -   [Django](https://www.djangoproject.com/download/) &mdash; Version `~6.0`
-    -   [Django REST Framework](https://www.django-rest-framework.org/community/release-notes/)
-        &mdash; Version `~3.16`
+    -   [Django Ninja](https://django-ninja.dev/)
+        &mdash; Version `~1.6`
     -   [Procrastinate](https://github.com/procrastinate-org/procrastinate)
-        &mdash; Version `~3.6`
+        &mdash; Version `~3.7`
     -   [Wagtail](https://docs.wagtail.io/en/stable/releases/index.html) &mdash;
-        Version `~7.2`
+        Version `~7.3`
     -   [Channels](https://channels.readthedocs.io/en/stable/releases/index.html)
         &mdash; Version `~4.3`
     -   [Django Postgres Extra](https://django-postgres-extra.readthedocs.io/en/latest/major_releases.html)
@@ -84,9 +84,9 @@ Python version it has been decided to include them.
 ### JavaScript
 
 -   [Node](https://nodejs.org/en/about/releases/) &mdash; Version `^24`
--   [Svelte](https://www.npmjs.com/package/svelte) &mdash; Version `~5.46`
+-   [Svelte](https://www.npmjs.com/package/svelte) &mdash; Version `~5.55`
 -   [SvelteKit](https://www.npmjs.com/package/@sveltejs/kit) &mdash; Version
-    `~2.49`
+    `~2.57`
 
 ### Databases
 
