@@ -36,7 +36,7 @@ version number in the format `<year>.<month>` which will be tagged.
 
 ## Versions
 
-The latest release is `2026.04`.
+The latest release is `2026.07`.
 
 The versions detailed below are the one for this release.
 
@@ -67,9 +67,9 @@ Python version it has been decided to include them.
     -   [Django Ninja](https://django-ninja.dev/)
         &mdash; Version `~1.6`
     -   [Procrastinate](https://github.com/procrastinate-org/procrastinate)
-        &mdash; Version `~3.7`
+        &mdash; Version `~3.9`
     -   [Wagtail](https://docs.wagtail.io/en/stable/releases/index.html) &mdash;
-        Version `~7.3`
+        Version `~7.4`
     -   [Channels](https://channels.readthedocs.io/en/stable/releases/index.html)
         &mdash; Version `~4.3`
     -   [Django Postgres Extra](https://django-postgres-extra.readthedocs.io/en/latest/major_releases.html)
@@ -77,16 +77,16 @@ Python version it has been decided to include them.
     -   [Wailer](https://github.com/WithAgency/Wailer/tags) &mdash; Version
         `~1.0`
 -   Annoying compiled stuff
-    -   [Numpy](https://numpy.org/news/) &mdash; Version `~2.4`
+    -   [Numpy](https://numpy.org/news/) &mdash; Version `~2.5  `
     -   [Pandas](https://pandas.pydata.org/docs/whatsnew/index.html) &mdash;
         Version `~2.3`
 
 ### JavaScript
 
 -   [Node](https://nodejs.org/en/about/releases/) &mdash; Version `^24`
--   [Svelte](https://www.npmjs.com/package/svelte) &mdash; Version `~5.55`
+-   [Svelte](https://www.npmjs.com/package/svelte) &mdash; Version `~5.56`
 -   [SvelteKit](https://www.npmjs.com/package/@sveltejs/kit) &mdash; Version
-    `~2.57`
+    `~2.69`
 
 ### Databases
 
