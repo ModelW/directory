@@ -13,7 +13,7 @@ You'll find in there every single important dependency. You need to decide which
 version to use.
 
 1. Change the version to the target version
-2. Run `poetry update`/`npm install` to make sure that the dependencies are
+2. Run `poetry update`/`pnpm install` to make sure that the dependencies are
    resolved (don't hesitate to remove `node_modules` and `package-lock.json` in
    the Nuxt preset)
 3. Test the new preset by running the template project while installing your

@@ -36,7 +36,7 @@ version number in the format `<year>.<month>` which will be tagged.
 
 ## Versions
 
-The latest release is `2026.07`.
+The latest release is `2026.10`.
 
 The versions detailed below are the one for this release.
 
@@ -63,13 +63,13 @@ Python version it has been decided to include them.
 
 -   [Python](https://endoflife.date/python) &mdash; Version `~3.14`
 -   Web Stuff
-    -   [Django](https://www.djangoproject.com/download/) &mdash; Version `~6.0`
+    -   [Django](https://www.djangoproject.com/download/) &mdash; Version `~6.1`
     -   [Django Ninja](https://django-ninja.dev/)
-        &mdash; Version `~1.6`
+        &mdash; Version `~1.7`
     -   [Procrastinate](https://github.com/procrastinate-org/procrastinate)
-        &mdash; Version `~3.9`
+        &mdash; Version `~3.10`
     -   [Wagtail](https://docs.wagtail.io/en/stable/releases/index.html) &mdash;
-        Version `~7.4`
+        Version `~8.0`
     -   [Channels](https://channels.readthedocs.io/en/stable/releases/index.html)
         &mdash; Version `~4.3`
     -   [Django Postgres Extra](https://django-postgres-extra.readthedocs.io/en/latest/major_releases.html)
@@ -84,25 +84,25 @@ Python version it has been decided to include them.
 ### JavaScript
 
 -   [Node](https://nodejs.org/en/about/releases/) &mdash; Version `^24`
--   [Svelte](https://www.npmjs.com/package/svelte) &mdash; Version `~5.56`
+-   [Svelte](https://www.npmjs.com/package/svelte) &mdash; Version `~5.57`
 -   [SvelteKit](https://www.npmjs.com/package/@sveltejs/kit) &mdash; Version
-    `~2.69`
+    `~2.70`
 
 ### Databases
 
 -   [PostgreSQL](https://www.postgresql.org/support/versioning/) &mdash; Version
-    `^15`
--   [Redis](https://redis.io/topics/release-notes) &mdash; Version `^7`
+    `^18`
+-   [Redis](https://redis.io/topics/release-notes) &mdash; Version `^8`
 
 ## Adopting a new release
 
 Switching to a new version of Model W is simple:
 
--   Update poetry and npm to their latest versions
+-   Update poetry and pnpm to their latest versions
 -   Update the first line of the `Dockerfile` under both `api` and `front`
 -   Update the `modelw-preset-*` packages inside `api/pyproject.toml` and inside
     `front/package.json`
--   Run `poetry update` as well as `npm update` to update all dependencies to their latest versions
+-   Run `poetry update` as well as `pnpm update` to update all dependencies to their latest versions
 -   Test the project locally
 -   `git push`
 -   Check the security tab in GitHub to make sure it's zero
